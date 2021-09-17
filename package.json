@@ -1,0 +1,23 @@
+{
+  "name": "vuepress-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "author": "tangxun",
+  "license": "ISC",
+  "dependencies": {
+    "@antv/g6": "^3.5.10"
+  },
+  "devDependencies": {
+    "vue-loader": "^15.9.3",
+    "@babel/core": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "vuepress": "^1.5.2"
+  }
+}
